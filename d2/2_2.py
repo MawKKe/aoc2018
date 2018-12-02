@@ -17,7 +17,7 @@ with open(sys.argv[1]) as f:
         # get common elements, character-by-character, but NOT not in sorted form.
         r = ''.join(x for x,y in zip(a,b) if x == y)
 
-        print("common:\n{0}".format(r))
+        print("common:\n{0}\n".format(r))
 
         break
 
