@@ -24,6 +24,5 @@ with open(sys.argv[1]) as f:
 
 stop = time.time()
 
-print("time:", stop-start)
 print("Elapsed time: {:.4f} s".format(stop-start))
 
